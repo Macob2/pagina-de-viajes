@@ -1,0 +1,46 @@
+/* Estilos de pagina de viajes */
+*{
+    outline: solid black;
+}*
+
+body { /* Seleccion de body */
+font-family: Arial, sans-serif ; /* Cambia tipografia */
+margin: 0; /* Elimina todo el margen predefinido */
+padding: 0; /* Elimina todo el relleno de los elementos */
+}
+/* Aca viene el estio de una clase container */
+.container {
+    width: 80%; /* establece el ancho del contenedor */
+    margin: 0 auto; /* Centra horizontalmenre el contenedor */
+}
+
+header{
+    background-color: #333; /* establece el color de fondo */
+    color: #fff; /* establece el color del texto */
+    padding: 20px 0; /* añade relleno sperioir e inferior */
+}
+
+header h1{
+    margin: 0; /* elimina el margen por defecto del titulo */
+}
+/* estilo de elemento de lista */
+nav ul li{
+    display: inline; /* alinea los elementos */
+    margin-right: 20px; /* magen hacia la derecha */
+}
+/* estilo a elementos de vinculos ancla de navegacion */
+nav ul li a{
+    color: #fff; /* color a elemento anchor */
+    text-decoration: none; /* quita subrayado de enlaces */
+}
+
+section {
+    padding: 40px 0; /* añade relleno sperior e inferior */
+}
+
+#banner{
+    background-image: url(´https://chrome.google.com/webstore/detail/cloudy-mountain/idgldkhahkpohadmccalhecgopjhjpbi?hl=es_US1500x500´);
+    background-size: cover; /* ajusta la imagen al area del banner */
+    color: #fff; /* establece el color del texto */
+    text-align: center; /*centra el texto del banner */
+}
